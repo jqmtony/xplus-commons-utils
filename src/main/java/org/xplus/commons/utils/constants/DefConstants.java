@@ -1,5 +1,10 @@
 package org.xplus.commons.utils.constants;
 
-public class DefConstants {
+/**
+ * 
+ * @author qiming.kong
+ *
+ */
+public final class DefConstants {
 
 }
