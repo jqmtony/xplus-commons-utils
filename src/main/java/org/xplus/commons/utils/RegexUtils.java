@@ -2,6 +2,11 @@ package org.xplus.commons.utils;
 
 import java.util.regex.Pattern;
 
+/**
+ * 
+ * @author qiming.kong
+ *
+ */
 public final class RegexUtils {
 
 	/**
