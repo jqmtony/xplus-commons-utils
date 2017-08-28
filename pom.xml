@@ -10,12 +10,14 @@
 	<name>xplus-commons-utils</name>
 	<url>http://maven.apache.org</url>
 
+	<!-- 公用变量 -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
 
+	<!-- 依赖配置信息 -->
 	<dependencies>
 		<!-- Test -->
 		<dependency>
@@ -50,10 +52,10 @@
 		</dependency>
 	</dependencies>
 
+	<!-- 构建配置信息 -->
 	<build>
 		<plugins>
 
 		</plugins>
-
 	</build>
 </project>
