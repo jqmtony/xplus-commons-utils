@@ -1,5 +1,10 @@
 package org.xplus.commons.utils.difinition;
 
-public class DefDifinition {
+/**
+ * 
+ * @author jqmtony [H]
+ *
+ */
+public final class DefDifinition {
 
 }

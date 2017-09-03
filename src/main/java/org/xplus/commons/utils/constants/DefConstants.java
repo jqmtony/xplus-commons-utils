@@ -2,7 +2,7 @@ package org.xplus.commons.utils.constants;
 
 /**
  * 
- * @author qiming.kong
+ * @author jqmtony [H]
  *
  */
 public final class DefConstants {
