@@ -4,6 +4,7 @@ import junit.framework.TestCase;
 
 public class DESUtilsTest extends TestCase {
 
+	
 	public void testHexString2Bytes() {
 		fail("Not yet implemented");
 	}
