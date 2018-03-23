@@ -3,9 +3,11 @@ package org.xplus.commons.utils;
 import java.util.regex.Pattern;
 
 /**
- * 
- * @author qiming.kong
- *
+ * 正则表达式工具类.
+ * <pre>
+ * </pre>
+ * @author JQM [C] 2018年3月24日
+ * @version 1.0
  */
 public final class RegexUtils {
 

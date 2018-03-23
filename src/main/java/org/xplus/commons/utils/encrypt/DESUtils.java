@@ -11,9 +11,11 @@ import javax.crypto.spec.DESKeySpec;
 import org.apache.commons.codec.binary.Base64;
 
 /**
- * DES对称加密<br>
- * 
- * @author qiming.kong
+ * DES对称加密.
+ * <pre>
+ * </pre>
+ * @author JQM [C] 2018年3月24日
+ * @version 1.0.0
  */
 public class DESUtils {
 	// 算法名称

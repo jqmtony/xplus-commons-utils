@@ -12,15 +12,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 反射工具类 <br>
- * <p>
+ * 反射工具类.
+ * 
+ * <pre>
  * 提供了一系列的获取某一个类的信息的方法<br>
  * 包括获取全类名，实现的接口，接口的泛型等<br>
  * 并且提供了根据Class类型获取对应的实例对象的方法，以及修改属性和调用对象的方法等<br>
- * </p>
+ * </pre>
  * 
- * @author jqmtony [H]
- *
+ * @author JQM [C] 2018年3月24日
+ * @version 1.0
  */
 public class ReflectionUtils {
 
