@@ -14,7 +14,7 @@ import org.apache.commons.codec.binary.Base64;
  * DES对称加密.
  * <pre>
  * </pre>
- * @author JQM [C] 2018年3月24日
+ * @author <a ></a>JQM [C] 2018年3月24日
  * @version 1.0.0
  */
 public class DESUtils {

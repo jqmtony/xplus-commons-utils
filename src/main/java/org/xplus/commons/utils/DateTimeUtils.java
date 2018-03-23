@@ -4,6 +4,13 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * 日期时间
+ * <pre>
+ * </pre>
+ * @author JQM [C] 2018年3月24日
+ * @version 1.0
+ */
 public class DateTimeUtils {
 
 	private DateTimeUtils() {
