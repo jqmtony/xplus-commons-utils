@@ -1,4 +1,4 @@
-package org.xplus.commons.utils.net;
+package org.xplus.commons.utils.net.mail;
 
 /**
  * 邮件工具类.

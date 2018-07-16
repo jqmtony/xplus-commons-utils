@@ -12,7 +12,7 @@ import java.io.InputStream;
  * @author JQM [C] 2018年3月24日
  * @version 1.0.0
  */
-public class DataUtils {
+public class ByteUtil {
 	/**
 	 * The high digits lookup table.
 	 */
@@ -42,6 +42,12 @@ public class DataUtils {
 		lowDigits = low;
 	}
 
+	/**
+	 * 
+	 * @param data
+	 * @param lengthLimit
+	 * @return
+	 */
 	public static String getHexdump(int data, int lengthLimit) {
 		if (lengthLimit == 0) {
 			throw new IllegalArgumentException("lengthLimit: " + lengthLimit + " (expected: 1+)");
@@ -84,7 +90,7 @@ public class DataUtils {
 	}
 
 	/**
-	 * 字符串 to 字节数组
+	 * 字符串TO字节数组
 	 */
 	public static byte[] getHexBytes(String message) {
 		int len = message.length() / 2;
@@ -98,6 +104,11 @@ public class DataUtils {
 		return bytes;
 	}
 
+	/**
+	 * 
+	 * @param hexString
+	 * @return
+	 */
 	public static byte[] hexStringToBytes(String hexString) {
 		if (hexString == null || hexString.equals("")) {
 			return null;

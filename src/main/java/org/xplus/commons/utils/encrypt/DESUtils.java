@@ -18,6 +18,7 @@ import org.apache.commons.codec.binary.Base64;
  * @version 1.0.0
  */
 public class DESUtils {
+	
 	// 算法名称
 	public static final String KEY_ALGORITHM = "DES";
 	// 算法名称/加密模式/填充方式

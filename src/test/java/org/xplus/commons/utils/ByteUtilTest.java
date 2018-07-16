@@ -2,7 +2,7 @@ package org.xplus.commons.utils;
 
 import junit.framework.TestCase;
 
-public class DataUtilsTest extends TestCase {
+public class ByteUtilTest extends TestCase {
 
 	public void testGetHexdump() {
 		//fail("Not yet implemented");
