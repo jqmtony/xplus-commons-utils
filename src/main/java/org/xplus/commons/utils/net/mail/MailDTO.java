@@ -11,6 +11,7 @@ import java.util.List;
  * @version 1.0
  *
  */
+@SuppressWarnings("serial")
 public class MailDTO implements Serializable {
 	
 	private String receiver;//
