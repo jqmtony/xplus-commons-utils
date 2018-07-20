@@ -6,10 +6,12 @@ import java.util.Date;
 
 /**
  * 日期时间工具类.
+ * 
  * <pre>
  * 参考资料:
  * https://www.cnblogs.com/kangds/p/6496674.html
  * </pre>
+ * 
  * @author JQM [C] 2018年3月24日
  * @version 1.0
  */
@@ -48,6 +50,8 @@ public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
 			break;
 		case 5:
 			result = "年";
+			break;
+		default:
 			break;
 		}
 		return result;
@@ -171,13 +175,13 @@ public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
 	/**
 	 * 返回时间戳
 	 * 
-	 * @param Time
+	 * @param time
 	 * @return
 	 */
-	public static long getTimeMill(String Time) throws ParseException {
+	public static long getTimeMill(String time) throws ParseException {
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-		Date date = format.parse(Time);
+		Date date = format.parse(time);
 
 		return date.getTime();
 	}
